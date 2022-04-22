@@ -1,5 +1,6 @@
 use crate::XMLElement;
 
+#[derive(Clone)]
 /// An enum value representing the types of XML contents
 pub(crate) enum XMLElementContent {
     /// No XML content.

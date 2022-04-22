@@ -2,6 +2,7 @@ use std::io::Write;
 
 use crate::{escape_str, Result, XMLElementContent, XMLError};
 
+#[derive(Clone)]
 /// Structure representing an XML element field.
 pub struct XMLElement {
     /// The name of the XML element.
